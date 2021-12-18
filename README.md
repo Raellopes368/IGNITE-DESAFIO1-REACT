@@ -57,6 +57,7 @@ Você encontrará o App em *http://localhost:3000*
 
 - [x] Criação de todos.
 - [x] Listagem de todos.
+- [x] Remoção de um todo.
 - [x] Uso de emojis.
 - [] Salvar em banco de dados.
 - [] Consumo de APIs.
