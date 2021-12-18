@@ -46,3 +46,12 @@ Você encontrará o App em *http://localhost:3000*
 - [Webpack](https://webpack.js.org/)
 - [Emoji-picker-react](https://www.npmjs.com/package/emoji-picker-react)
 - [Typescript](https://www.typescriptlang.org/docs/)
+
+
+## Features
+
+- [x] Criação de todos.
+- [x] Listagem de todos.
+- [x] Uso de emojis.
+- [] Salvar em banco de dados.
+- [] Consumo de APIs.
