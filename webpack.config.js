@@ -37,6 +37,7 @@ module.exports = {
             plugins: [
               isDevelopment && require.resolve('react-refresh/babel')
             ].filter(Boolean),
+            sourceMap: process.env.NODE_ENV !== 'production',
           }
         }
       },
