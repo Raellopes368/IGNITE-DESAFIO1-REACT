@@ -1,5 +1,10 @@
 # Todo List
 
+## Preview
+
+
+![preview](./assets/preview.png)
+
 ## Descrição
 
 Web App React Js para a resolução do primeiro desafio do Ignite da trilha React.
