@@ -1,6 +1,8 @@
+import { useState } from "react";
+import './styles.scss';
+
 export type TTodoComponent = {
   name: string;
-  closed: boolean;
 }
 
 type TodoComponentProps = {
@@ -8,9 +10,14 @@ type TodoComponentProps = {
 };
 
 export function TodoComponent({ todo }: TodoComponentProps) {
+  const [closed, setClosed] = useState(false);
   return (
-    <li className={`todo-item ${todo.closed && 'closed'}`}>
-      <span>{todo.name}</span>
+    <li className={`todo-item ${closed && 'closed'}`}>
+      <span className="name">{todo.name}</span>
+      <div className="row">
+        <input type="checkbox" checked={closed} id={todo.name} onChange={() => setClosed(!closed)}/>
+        <label htmlFor={todo.name} className="close">{closed ? 'Abrir': 'Fechar'}</label>
+      </div>
     </li>
   );
 }
