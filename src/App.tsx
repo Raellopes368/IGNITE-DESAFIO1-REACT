@@ -1,3 +1,6 @@
+import { TodoList } from './components/TodoList';
+import './styles/global.scss';
+
 export function App() {
-  return <div>Hello world</div>
+  return <TodoList />
 }
