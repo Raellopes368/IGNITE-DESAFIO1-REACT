@@ -36,9 +36,9 @@ Crie um arquivo chamado **.env** na raíz do projeto e adicione as configuraçõ
 
 Após isso, você pode rodar o app com:
 ```
-  yarn dev
-  #ou 
-  npm run dev
+yarn dev
+#ou 
+npm run dev
 ```
 
 Você encontrará o App em *http://localhost:3000*
@@ -59,5 +59,5 @@ Você encontrará o App em *http://localhost:3000*
 - [x] Listagem de todos.
 - [x] Remoção de um todo.
 - [x] Uso de emojis.
-- [] Salvar em banco de dados.
-- [] Consumo de APIs.
+- [ ] Salvar em banco de dados.
+- [ ] Consumo de APIs.
